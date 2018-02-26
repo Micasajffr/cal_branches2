@@ -15,6 +15,10 @@ function cube() {
   var num = document.getElementById("n1");
   num.value = num.value * num.value * num.value;
 }
+function squareroot() {
+  var num = document.getElementById("n1");
+  num.value = Math.sqrt(num.value);
+}
 </script>
 </head>
 <body>
@@ -25,5 +29,6 @@ function cube() {
   <button onclick="inverse()"> 1/x </button>
   <button onclick="square()"> x<sup>2</sup> </button>
   <button onclick="cube()"> x<sup>3</sup> </button>
+  <button onclick="squareroot()"> x<sup>1/2</sup> </button>
 </body>
 </html>
